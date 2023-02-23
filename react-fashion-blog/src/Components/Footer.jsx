@@ -1,7 +1,11 @@
 export function Footer() {
   return (
     <>
-      <ul aria-label="Main Navigation" role="navigation">
+      <ul
+        aria-label="Main Navigation"
+        role="navigation"
+        className="navList applyTomato"
+      >
         <li>
           <a href="#">Home</a>
         </li>
@@ -28,7 +32,7 @@ export function Footer() {
         </li>
       </ul>
 
-      <p>&copy; 2013 Valet Industries, Inc</p>
+      <p className="applyPad">&copy; 2013 Valet Industries, Inc</p>
     </>
   );
 }

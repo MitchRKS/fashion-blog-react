@@ -1,7 +1,11 @@
 export function Nav() {
   return (
-    <>
-      <ul aria-label="Main Navigation" role="navigation">
+    <div className="applyPad">
+      <ul
+        className="navList applyGray"
+        aria-label="Main Navigation"
+        role="navigation"
+      >
         <li>
           <a href="#">Women's</a>
         </li>
@@ -21,6 +25,6 @@ export function Nav() {
           <a href="#">About</a>
         </li>
       </ul>
-    </>
+    </div>
   );
 }

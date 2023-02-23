@@ -9,11 +9,11 @@ import { Footer } from "./Components";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Nav />
-      <Article />
-      <Article />
-      <Footer />
+      <Header className="applyPad" />
+      <Nav className="applyPad" />
+      <Article className="applyPad" />
+      <Article className="applyPad" />
+      <Footer className="applyPad" />
     </div>
   );
 }
