@@ -1,15 +1,15 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
+import { Article } from "./Components";
+import { Header } from "./Components/Header";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
-      <h1>Header</h1>
+      <Header />
       <h3>Nav Bar</h3>
-      <h5>Article</h5>
+      <Article />
       <h5>Article</h5>
       <h3>Footer</h3>
     </div>
